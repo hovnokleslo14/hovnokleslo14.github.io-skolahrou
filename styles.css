@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+    font-size: 2.5em;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    align-items: center;
+}
+
+.row span {
+    font-size: 1.2em;
+    margin-right: 10px;
+    width: 120px;
+}
+
+.dropzone {
+    border: 2px dashed #888;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dropzone:hover {
+    background-color: #f1f1f1;
+}
+
+.draggable-items {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.draggable {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+.draggable:active {
+    cursor: grabbing;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+#resultList {
+    margin-top: 20px;
+}
+
+.result {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}

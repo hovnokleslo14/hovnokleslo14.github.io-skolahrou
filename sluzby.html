@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>anglická cvičení</title>
+  <style>
+    /* Reset stylů */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00aaff;
+    }
+
+    .services-header {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #1f1f1f, #282828);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .services-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .services-header p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+
+    .services {
+      display: flex;
+      justify-content: space-around;
+      padding: 50px 0;
+      background-color: #1f1f1f;
+      flex-wrap: wrap;
+    }
+
+    .service {
+      background-color: #282828;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      width: 300px;
+      margin: 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: slideUp 1.5s ease-in-out;
+    }
+
+    .service:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .service h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .service p {
+      font-size: 1rem;
+      color: #bbbbbb;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      color: #bbbbbb;
+    }
+
+    /* Animace */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Domů</a></li>
+        <li><a href="sluzby.html">Služby</a></li>
+        <li><a href="#">O nás</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="services-header">
+    <h1>Anglická cvičení</h1>
+    <p>vyzkoušejte si naše nejnovější cvičení z angličtiny.</p>
+  </section>
+
+   <!-- Anglická zajmena -->
+  <section class="services">
+    <div class="service">
+      <h2>Anglická zájmena</h2>
+      <p>Vyzkoušejte naše angličká zajmena a zlepšete si své skills.😊</p>
+      <a href="zajmena.html" class="modern-button">začít</a>
+    </div>
+    
+    <!-- skládání vět -->
+    <div class="service">
+      <h2>skládání vět</h2>
+      <p>Vyzkoušejte naše matematické úlohy a zlepšujte své dovednosti.</p>
+      <a href="matematika.html" class="modern-button">začít</a>
+    </div>
+  </section>
+
+  <section class="services-header">
+    <h1>programátorská cvičení</h1>
+    <p>prozkoumejte naše nejnovější cvičení.</p>
+  </section>
+
+</section>
+
+<div class="service">
+  <h2>PRACUJE SE NA TOM!!!!</h2>
+  <p>PRACUJE SE NA TOM!!!!</p>
+  <a href="PRACUJE SE NA TOM!!!!" class="modern-button">PRACUJE SE NA TOM!!!!</a>
+</div>
+
+</section>
+
+<style>
+  .modern-button {
+    padding: 5px 30px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .modern-button:hover {
+    background-color: #0088cc;
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .modern-button:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+</style>
+    </div>
+  </section>
+
+</body>
+</html>
+

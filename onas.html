@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O nás</title>
+  <style>
+    /* Reset stylů */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00aaff;
+    }
+
+    .about-header {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #1f1f1f, #282828);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .about-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .about-header p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+
+    .about-content {
+      display: flex;
+      justify-content: center;
+      padding: 50px 20px;
+      background-color: #1f1f1f;
+      text-align: center;
+    }
+
+    .about-text {
+      max-width: 800px;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #bbbbbb;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      color: #bbbbbb;
+    }
+
+    /* Animace */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .about-content {
+      animation: fadeIn 1.5s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Domů</a></li>
+        <li><a href="sluzby.html">Služby</a></li>
+        <li><a href="onas.html">O nás</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about-content">
+    <div class="about-text">
+      <p><strong>členové týmu</strong></p>
+      
+      <p>furplex</p>
+
+      <p><strong>O čem je tento náš project?</strong></p>
+
+      <p>Tento project je o tom aby jsme naučili využívat školi </p>
+      
+      <p></p>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Furplex. Všechna práva vyhrazena.</p>
+  </footer>
+</body>
+</html>

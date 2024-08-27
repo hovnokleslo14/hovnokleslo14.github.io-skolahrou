@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angličtina hrou zájmena</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Angličtina hrou <strong>zájmena</strong></h1>
+        <div id="mainMenu">
+            <h2>začít</h2>
+            <button onclick="startLearning()">Začít</button>
+        </div>
+        
+        <!-- Sekce pro zájmena (více stránek) -->
+        <div id="pronouns" class="section hidden">
+            <h2>Zájmena - Přetáhněte správné zájmeno</h2>
+            <div id="pronounPages">
+                <!-- Stránky se zájmeny budou generovány dynamicky pomocí JS -->
+            </div>
+            <button id="nextBtn" onclick="nextPage()">Další</button>
+        </div>
+        
+        <!-- Výsledky -->
+        <div id="results" class="section hidden">
+            <h2>Výsledky</h2>
+            <div id="resultList"></div>
+        </div>
+    </div>
+
+    <div class="draggable-items hidden">
+        <!-- Draggable zájmena budou generovány dynamicky pomocí JS -->
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

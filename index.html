@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>škola hrou</title>
+  <style>
+    /* Reset stylů */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      line-height: 1.6;
+      padding: 0;
+      margin: 0;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00aaff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #1f1f1f, #282828);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+
+    .cta {
+      display: inline-block;
+      padding: 10px 30px;
+      background-color: #00aaff;
+      color: #ffffff;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta:hover {
+      background-color: #0088cc;
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-around;
+      padding: 50px 0;
+      background-color: #1f1f1f;
+    }
+
+    .card {
+      background-color: #282828;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      width: 300px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: slideUp 1.5s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #bbbbbb;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      color: #bbbbbb;
+    }
+
+    /* Animace */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Domů</a></li>
+        <li><a href="onas.html">O nás</a></li>
+        <li><a href="sluzby.html">Služby</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>škola hrou</h1>
+    <a href="#" class="cta">Zjistit více</a>
+  </section>
+
+  <section class="content">
+    <div class="card">
+      <h2>Naše mise</h2>
+      <p>Aby jsme poskitovali online učení tak aby se zlepšilo v českých školách.</p>
+    </div>
+    <div class="card">
+      <h2>Naše vize</h2>
+      <p>Aby se ve školách učilo moderními technikami.</p>
+    </div>
+    <div class="card">
+        <h2>Na co se zamněřujeme</h2>
+        <p>Angličtina, na dalších jazicích se pracuje</p>
+      </div>
+  </section>
+
+</body>
+</html>
